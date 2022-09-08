@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1024px) {
+  @include divice(desktop);
+}
+@media only screen and (max-width: 768px) {
+  @include divice(tablet);
+}
+@media only screen and (max-width: 425px) {
+  @include divice(mobile);
+}
