@@ -191,9 +191,9 @@ body {
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       grid-template-rows: repeat(2, 1fr); }
     body main .acercade {
+      margin: auto;
       grid-template-columns: 1fr;
-      grid-auto-rows: auto;
-      padding: 0 50px 0 50px; }
+      grid-auto-rows: auto; }
       body main .acercade p {
         margin: auto; }
       body main .acercade article {
@@ -202,8 +202,7 @@ body {
           list-style-type: none;
           font-size: 1.1rem; }
     body main .cuerpo-productos {
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      padding: 0 50px 0 50px; }
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
       body main .cuerpo-productos .producto {
         margin: 15px;
         padding: 10px; }
@@ -214,8 +213,7 @@ body {
           height: auto;
           object-position: center; }
     body main .portfolio {
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-      padding: 0 0 0 50px; }
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
       body main .portfolio div {
         margin: 10px;
         position: relative; }
@@ -288,7 +286,7 @@ form {
     grid-template-rows: 100px repeat(3, 2fr) 1fr;
     grid-template-areas: "header" "main" "main" "main" "footer"; }
   body .nav-list-link {
-    font-size: 1.6rem; }
+    font-size: 1.5rem; }
   body .img-fondo {
     min-height: 500px; }
   body .formulario-contacto {
